@@ -3,7 +3,7 @@ This repository deals with machine learning and it's algorithms.
 
 # Regression:
 
-### 1.Linear regression
+### 1.Simple Linear regression
 Linear regression is an attractive model because the representation is so simple.
 
 The representation is a linear equation that combines a specific set of input values (x) the solution to which is the predicted output for that set of input values (y). As such, both the input values (x) and the output value are numeric.
@@ -20,4 +20,14 @@ It is common to talk about the complexity of a regression model like linear regr
 
 When a coefficient becomes zero, it effectively removes the influence of the input variable on the model and therefore from the prediction made from the model (0 * x = 0). This becomes  relevant if you look at regularization methods that change the learning algorithm to reduce the complexity of regression models by putting pressure on the absolute size of the coefficients, driving some to zero.
 
-### 2.Polynomial Regression
+### 2.Multiple Linear Regression
+Multiple linear regression is the most common form of linear regression analysis.  As a predictive analysis, the multiple linear regression is used to explain the relationship between one continuous dependent variable and two or more independent variables.  The independent variables can be continuous or categorical (dummy coded as appropriate).
+
+
+There are 3 major uses for multiple linear regression analysis.  First, it might be used to identify the strength of the effect that the independent variables have on a dependent variable.
+
+Second, it can be used to forecast effects or impacts of changes.  That is, multiple linear regression analysis helps us to understand how much will the dependent variable change when we change the independent variables.  For instance, a multiple linear regression can tell you how much GPA is expected to increase (or decrease) for every one point increase (or decrease) in IQ.
+
+Third, multiple linear regression analysis predicts trends and future values.  The multiple linear regression analysis can be used to get point estimates.  An example question may be “what will the price of gold be 6 month from now?”
+
+When selecting the model for the multiple linear regression analysis, another important consideration is the model fit.  Adding independent variables to a multiple linear regression model will always increase the amount of explained variance in the dependent variable (typically expressed as R²).  Therefore, adding too many independent variables without any theoretical justification may result in an over-fit model.
